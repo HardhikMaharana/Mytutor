@@ -1,0 +1,592 @@
+.d1{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.in1{
+  margin-left: 8%;
+  margin-top: 15%;
+
+}
+.in2{
+
+margin-left: 20%;
+  margin-top: 100px;
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+}
+.nig{
+  margin-left: 39px;
+  margin-top: 20px;
+}
+
+
+.d2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.in3{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+  justify-content: center;
+}
+.in4{
+
+  margin-top: 5%;
+margin-right: 5%;
+}
+
+.in3 img{
+  margin-top:15%;
+  margin-left: 25%;
+
+}
+
+
+.header{
+
+  font-family: 'Nunito', sans-serif;
+font-size: 100px;
+font-weight: 600;
+font-stretch: expanded;
+word-spacing: .5vh;
+color: white;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 9px 20px #AA77FF;
+
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+font-size: 100px;
+font-weight: 600;
+font-stretch: expanded;
+word-spacing: .5vh;
+color: white;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 9px 20px #AA77FF;
+    animation-name: heading_fade;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes heading_fade {
+
+from{
+  opacity: 0%;
+}
+ to{
+   opacity: 100%;
+ }
+}
+
+
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(#091517 90%,#091517 );
+}
+
+p{
+  margin-top: 25px;
+  color:#536162;
+  font-size: 20px;
+}
+
+.login{
+  width: 150px;
+  height: 35px;
+  background: #02C7DB;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.login:hover{
+  background: linear-gradient(#0A9EF2,#02C7DB);
+}
+
+
+
+.collapse li:hover{
+transition: all .3s ease-in;
+font-size: 20px;
+
+}
+
+
+.collapse li{
+
+margin-left: 20px;
+color: white;
+
+}
+a{
+
+color: white;
+
+}
+.collapse ul{
+
+margin-left: 30px;
+color: white;
+}
+
+.navbar-brand{
+
+margin-left: 20px;
+}
+.d2{
+  align-items : center;
+  height: 100vh;
+
+}
+
+
+.navbar{
+  background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+
+}
+
+
+
+.queries{
+  margin-top: 120px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5vh;
+  color: white;
+      -webkit-text-stroke: 1px #F8F8F8;
+      text-shadow: 0px 9px 20px #AA77FF;
+  color:#536162;
+  font-weight: bolder;
+
+}
+
+
+.registration_div{
+  margin-top: 120px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+
+  color: white;
+      -webkit-text-stroke: 1px #F8F8F8;
+      text-shadow: 0px 9px 20px #AA77FF;
+  color:#536162;
+  font-weight: bolder;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.Teacher_register_btn{
+  background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+  font-family:'Nunito', sans-serif;
+  font-weight: bolder;
+font-size: 2vh;
+border-radius: 4vh;
+width:25vh;
+height: 7vh;
+letter-spacing: .3vh;
+margin-top: 15vh;
+margin-bottom: 20vh;
+}
+
+.Teacher_register_btn:hover{
+  background: linear-gradient(#0A9EF2,#02C7DB);
+}
+
+.quer{
+
+font-size: 30px;
+word-spacing: 4px;
+}
+.queries{
+  margin-top: 150px;
+  margin-bottom: 200px;
+  }
+
+
+
+.mail{
+  background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+  font-family:'Nunito', sans-serif;
+  font-weight: bolder;
+font-size: 2vh;
+border-radius: 4vh;
+width:25vh;
+height: 7vh;
+letter-spacing: .3vh;
+margin-top: 9vh;
+margin-bottom: 10vh;
+}
+
+.mail:hover{
+  background: linear-gradient(#0A9EF2,#02C7DB);
+}
+
+
+/*-----------------------------------------------Card--------------------------------*/
+.cardcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 250px
+
+}
+
+.cardcont{
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0px 9px 20px #AA77FF;
+  transition: 0.3s;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: linear-gradient(#232629 ,#232629);
+  border-color: white;
+  border-width: 9px;
+
+}
+b{
+  color: white;
+}
+.cardimg{
+  width:100px;
+  height: 300px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0px 9px 20px #AA77FF;
+  text-decoration: none;
+}
+
+/* Add some padding inside the card container */
+.c-container {
+  padding: 2px 16px;
+}
+
+.card {
+  box-shadow: 0 2px 8px 0 #000000;
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+
+/*--------------------------------------media query---------------------------------------------------------*/
+@media (max-width:600px) {
+
+  .d1{
+    display: flex;
+    flex-direction: column;
+    display: block;
+
+  }
+
+  .in1{
+    margin-left: 8%;
+    margin-top: 15%;
+    display: block;
+
+  }
+  .in2{
+
+  margin-left: -10%;
+    margin-top: 100px;
+    margin-right: 15px;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+    display: block;
+  }
+  .nig{
+    margin-left: 80px;
+    margin-top: 20px;
+    height:250px;
+  }
+
+
+  .d2{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  .in3{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+    justify-content: center;
+    overflow:inherit;
+  }
+  .in4{
+
+    margin-top: 20%;
+  margin-right: 5%;
+  }
+
+  .in3 img{
+    margin-top:15%;
+    margin-left: 25%;
+height: 250px;
+  }
+
+
+  .header{
+
+    font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-stretch: expanded;
+  word-spacing: .5vh;
+  color: white;
+      -webkit-text-stroke: 1px #F8F8F8;
+      text-shadow: 0px 9px 20px #AA77FF;
+
+  }
+
+  h1{
+    font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: expanded;
+  word-spacing: .5vh;
+  color: white;
+      -webkit-text-stroke: 1px #F8F8F8;
+      text-shadow: 0px 9px 20px #AA77FF;
+      animation-name: heading_fade;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+
+  }
+  p{
+    font-size: 15px;
+  }
+
+  .login{
+    width: 100px;
+    background: #02C7DB;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+
+  }
+  .login:hover{
+    background: linear-gradient(#0A9EF2,#02C7DB);
+  }
+
+
+
+  .collapse li:hover{
+  transition: all .3s ease-in;
+  font-size: 15px;
+  }
+
+
+  .collapse li{
+
+  margin-left: 20px;
+  color: white;
+
+  }
+  a{
+
+  color: white;
+
+  }
+  .collapse ul{
+
+  margin-left: 30px;
+  color: white;
+  }
+
+  .navbar-brand{
+
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  margin-top: 2px;
+
+  }
+  .d2{
+    align-items: center;
+  }
+
+
+  .navbar{
+    background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+
+
+  }
+
+
+
+
+
+  .queries{
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: white;
+        -webkit-text-stroke: 1px #F8F8F8;
+        text-shadow: 0px 9px 20px #AA77FF;
+    color:#536162;
+    font-weight: bolder;
+
+  }
+
+
+  .registration_div{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+    color: white;
+        -webkit-text-stroke: 1px #F8F8F8;
+        text-shadow: 0px 9px 20px #AA77FF;
+
+    font-weight: bolder;
+    margin-bottom: 20vh;
+    font-size: 20px;
+  }
+
+  .Teacher_register_btn{
+    background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+  font-size: 2vh;
+  border-radius: 4vh;
+  width:100px;
+  height: 40px;
+  letter-spacing: .3vh;
+  margin-top: 15vh;
+  margin-bottom: 20px;
+  }
+
+  .Teacher_register_btn:hover{
+    background: linear-gradient(#0A9EF2,#02C7DB);
+  }
+
+  .quer{
+
+  font-size: 30px;
+  word-spacing: 4px;
+
+  }
+
+
+  .mail{
+    background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+  font-size: 11px;
+  border-radius: 4vh;
+  width:150px;
+  height: 40px;
+  letter-spacing: .3vh;
+  margin-top: 9vh;
+  margin-bottom: 10vh;
+  }
+
+  .mail:hover{
+    background: linear-gradient(#0A9EF2,#02C7DB);
+  }
+
+
+
+
+
+
+
+
+  .cardcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+  }
+
+  .cardcont{
+    display: flex;
+    flex-flow: row;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0px 9px 20px #AA77FF;
+    transition: 0.3s;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(#232629 90%,#232629 );
+    border-color: white;
+    border-width: 9px;
+  }
+  .cardimg{
+    width:50px;
+    height: 200px;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0px 9px 20px #AA77FF;
+    text-decoration: none;
+  }
+
+  /* Add some padding inside the card container */
+  .c-container {
+    padding: 2px 16px;
+  }
+
+  .card {
+    box-shadow: 0 2px 8px 0 #CCCCCC;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+
+
+
+}

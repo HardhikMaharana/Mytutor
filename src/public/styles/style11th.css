@@ -1,0 +1,136 @@
+body{
+  min-height: 100vh;
+  background: linear-gradient(#091517 90%,#091517 );
+}
+.navbar{
+background-image: linear-gradient(#4FBED1,#0B94D4 90%);
+  position: fixed;
+}
+.collapse li:hover{
+transition: all .3s ease-in;
+font-size: 20px;
+}
+
+
+.collapse li{
+
+margin-left: 20px;
+color: white;
+
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+font-size: 100px;
+font-weight: 600;
+font-stretch: expanded;
+word-spacing: .5vh;
+color: white;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 9px 20px #AA77FF;
+
+}
+
+.registration{
+
+margin-top: 100px;
+
+}
+
+.register{
+  width: 150px;
+  background: #02C7DB;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.register:hover{
+  background: linear-gradient(#0A9EF2,#02C7DB);
+}
+
+
+.cardcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 170px
+
+}
+
+.cardcont{
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0px 9px 20px #AA77FF;
+  transition: 0.3s;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: linear-gradient(#232629 ,#232629);
+  border-color: white;
+  border-width: 9px;
+width: 300px;
+}
+b{
+  color: white;
+}
+.cardimg{
+  width:100px;
+  height: 100px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0px 9px 20px #AA77FF;
+  text-decoration: none;
+}
+
+/* Add some padding inside the card container */
+.c-container {
+  padding: 2px 16px;
+
+}
+h4, p{
+  color: white;
+
+}
+
+.card {
+  box-shadow: 0 2px 8px 0 #000000;
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-top: 50px;
+}
+.login{
+  width: 150px;
+  background: #02C7DB;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.login:hover{
+  background: linear-gradient(#0A9EF2,#02C7DB);
+}
